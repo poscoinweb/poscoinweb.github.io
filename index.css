@@ -1,0 +1,105 @@
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 100;
+  text-align: center;
+  color: gold;
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 100;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  margin: 24px 0 0 0;
+}
+
+.hero,
+.about,
+.downloads {
+  height: 100vh;
+}
+
+.hero,
+.about,
+.downloads,
+.inner,
+.hero .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inner {
+  max-width: 768px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.hero img {
+  max-width: 80vw;
+}
+
+.about {
+  background: black;
+  color: white;
+}
+
+.downloads {
+  color: black;
+}
+
+.downloads h2 {
+  color: black;
+}
+
+.downloads .links {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 320px;
+}
+
+.downloads .links a {
+  color: gold;
+  text-decoration: none;
+  font-size: 64px;
+}
+
+.downloads .links a:hover {
+  color: black;
+}
+
+.community {
+  background: black;
+}
+
+.community p {
+  color: white;
+}
+
+.community a {
+  color: gold;
+}
